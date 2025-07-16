@@ -1,0 +1,452 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Session 1: Data, Expressions, and Strings"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 1:** \n",
+    "\n",
+    "Write a program that asks the user to input a number of hours, minutes, and seconds, and returns the total number of seconds.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Enter the number of hours: 2\n",
+    "Enter the number of minutes: 30\n",
+    "Enter the number of seconds: 45\n",
+    "The total number of seconds is: 9045\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 2:** \n",
+    "\n",
+    "Write a program that asks the user to input a string and returns the number of vowels.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Enter a string: Hello World\n",
+    "The number of vowels in the string is: 3\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 3:**\n",
+    "\n",
+    "Write a program that displays the following list of names and grades aligned in a table.\n",
+    "\n",
+    "names = [\"Tom\", \"Nathalie\", \"Alice\"]\n",
+    "\n",
+    "grades = [17.5, 14.0, 2.0]\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Name       Grade\n",
+    "----------------\n",
+    "Tom        17.5 \n",
+    "Nathalie   14.0 \n",
+    "Alice      2.0\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 4:**\n",
+    "\n",
+    "Write a program that displays the multiplication table from 1 to 10, aligning the results in a table.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "   1   2   3   4   5   6   7   8   9  10\n",
+    "   2   4   6   8  10  12  14  16  18  20\n",
+    "   3   6   9  12  15  18  21  24  27  30\n",
+    "   4   8  12  16  20  24  28  32  36  40\n",
+    "   5  10  15  20  25  30  35  40  45  50\n",
+    "   6  12  18  24  30  36  42  48  54  60\n",
+    "   7  14  21  28  35  42  49  56  63  70\n",
+    "   8  16  24  32  40  48  56  64  72  80\n",
+    "   9  18  27  36  45  54  63  72  81  90\n",
+    "  10  20  30  40  50  60  70  80  90 100\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 5**\n",
+    "\n",
+    "Write a program that displays the following inventory of products with their quantity and price aligned in a table.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Product     Quantity       Price\n",
+    "-------     --------       -----\n",
+    "Apples             5       3.50 €\n",
+    "Bananas            7       0.99 €\n",
+    "Oranges            6       2.35 €\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 6:**\n",
+    "\n",
+    "Use list comprehension to create a new list that contains only the even numbers from a given list.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Original list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+    "Even numbers: [2, 4, 6, 8, 10]\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 7:**\n",
+    "\n",
+    "Given a 2D list (a list of lists), use list comprehension to flatten it into a single list.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Original 2D list: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n",
+    "Flattened list: [1, 2, 3, 4, 5, 6, 7, 8, 9]\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 8:**\n",
+    "\n",
+    "Create a program that uses list comprehension to generate a list of squares of numbers from 1 to 10, but only for numbers greater than 5.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "\n",
+    "Squares of numbers greater than 5: [36, 49, 64, 81, 100]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 9:**\n",
+    "\n",
+    "Use list comprehension to create a list of numbers from 1 to 20 that are divisible by both 2 and 3.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "Numbers divisible by both 2 and 3: [6, 12, 18]\n",
+    "```\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 10:**\n",
+    "\n",
+    "Create a tuple with three elements: your name, age, and city. Unpack the tuple into three variables and print them."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 11:**\n",
+    "\n",
+    "Create a nested tuple where each element is a tuple representing a point in 2D space (x, y). Write a program to access and print the y-coordinate of the second point."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 12:**\n",
+    "\n",
+    "Create a list of your favorite movies. Convert the list to a tuple and print the tuple."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 13:**\n",
+    "\n",
+    "Create a tuple containing numbers from 1 to 10. Write a program to slice and print the first three elements and the last three elements.\n",
+    "\n",
+    "*Output Expected:*\n",
+    "```\n",
+    "First three elements: (1, 2, 3)\n",
+    "Last three elements: (8, 9, 10)\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 14:**\n",
+    "\n",
+    "Given a list with duplicate elements, write a program to convert the list to a set to remove duplicates, then convert it back to a list and print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 15:**\n",
+    "\n",
+    "Create two sets, one containing your favorite fruits and the other containing fruits your friend likes. Perform the following operations and print the results:\n",
+    "\n",
+    "1. Union: Fruits either of you like.\n",
+    "2. Intersection: Fruits both of you like.\n",
+    "3. Difference: Fruits only you like."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 16:**\n",
+    "\n",
+    "Ask the user to input two strings. Convert these strings into sets of letters. Check if the set of letters from the second string is a subset of the set of letters from the first string, and if the set of letters from the first string is a superset of the set of letters from the second string. Display the results."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 17:**\n",
+    "\n",
+    "You are organizing an event and need to manage attendee lists:\n",
+    "\n",
+    "1. A list of registered people.\n",
+    "2. A list of people who have confirmed their attendance.\n",
+    "3. A list of people who have canceled their participation.\n",
+    "\n",
+    "You need to:\n",
+    "\n",
+    "1. Find the people who have confirmed their attendance.\n",
+    "2. Identify registered people who have not yet confirmed.\n",
+    "3. Remove people who have canceled from the attendee list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercice 18:**\n",
+    "\n",
+    "You are managing a product inventory for a store. Each product has a name (key) and a stock quantity (value). You need to:\n",
+    "\n",
+    "1. Add new products to the inventory.\n",
+    "2. Update the quantity of an existing product.\n",
+    "3. Remove a product from the inventory.\n",
+    "4. Display the complete inventory.\n",
+    "\n",
+    "*Example of the output:*\n",
+    "```\n",
+    "Inventory after adding grapes: {'apples': 50, 'bananas': 30, 'oranges': 40, 'grapes': 20}\n",
+    "Inventory after updating apples: {'apples': 60, 'bananas': 30, 'oranges': 40, 'grapes': 20}\n",
+    "Inventory after removing oranges: {'apples': 60, 'bananas': 30, 'grapes': 20}\n",
+    "\n",
+    "Complete Inventory:\n",
+    "apples: 60 units\n",
+    "bananas: 30 units\n",
+    "grapes: 20 units\n",
+    "```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Exercise 19:**\n",
+    "You are working on a text data management system. You need to process a string containing information about products. The string is structured as follows:\n",
+    "```\n",
+    "\"Product: Apples, Quantity: 90, Price: 1.20; Product: Bananas, Quantity: 30, Price: 0.80; Product: Oranges, Quantity: 40, Price: 1.00\"\n",
+    "```\n",
+    "Your tasks are:\n",
+    "1. Split the products : Use split to divide the string into a list of individual products.\n",
+    "2. Extract information : For each product, extract the name, quantity, and price.\n",
+    "3. Check data : Verify that each product has a name, quantity, and price.\n",
+    "4. Replace errors : If a product has a missing quantity or price, replace them with default values (quantity = 0, price = 0.0).\n",
+    "5. Search for a product : Allow the user to search for a product by name and display its information.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "base",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

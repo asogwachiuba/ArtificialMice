@@ -7,7 +7,7 @@ Choose your mouse's **type**, **color**, and **starting direction** — then wat
 
 ## 🎥 Demo
 
-![Artificial Mice Demo](artificial mice.gif)
+![Artificial Mice Demo](artificial-mice.gif)
 
 ---
 
